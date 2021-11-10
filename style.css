@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(87, 190, 87);
+}
+main {
+    padding-top: 100px;
+}
+form {
+   
+        background-color: #FFF;
+        margin: auto;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        color: rgb(218, 214, 214);
+}
+input[type="text" i], button {
+    padding: 10px;
+    background-color: rgb(236, 236, 236);
+    border: 0;
+    margin-bottom: 10px;
+    color:#fff;
+
+}
+button {
+    background-color: rgb(3, 161, 3);
+}
+input::placeholder {
+    color: rgb(202, 194, 194);
+}
+
+form > p {
+    text-align: center;
+}
+form > p > a {
+    color:rgb(51, 175, 51)
+}
+#enteredValues {
+    text-align: center;
+}
